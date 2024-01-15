@@ -420,7 +420,7 @@ rhel9cis_is_router: false
 rhel9cis_ipv6_required: true
 
 # AIDE
-rhel9cis_config_aide: true
+rhel9cis_config_aide: false
 # AIDE cron settings
 rhel9cis_aide_cron:
     cron_user: root
