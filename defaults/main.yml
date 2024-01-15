@@ -99,26 +99,26 @@ audit_cmd_timeout: 120000
 # You must enable an entire section in order for the variables below to take effect.
 # Section 1 rules
 rhel9cis_rule_1_1_1_1: true
-rhel9cis_rule_1_1_1_2: true
+rhel9cis_rule_1_1_1_2: false
 rhel9cis_rule_1_1_2_1: true
 rhel9cis_rule_1_1_2_2: true
 rhel9cis_rule_1_1_2_3: true
 rhel9cis_rule_1_1_2_4: true
-rhel9cis_rule_1_1_3_1: true
-rhel9cis_rule_1_1_3_2: true
-rhel9cis_rule_1_1_3_3: true
-rhel9cis_rule_1_1_4_1: true
-rhel9cis_rule_1_1_4_2: true
-rhel9cis_rule_1_1_4_3: true
-rhel9cis_rule_1_1_4_4: true
-rhel9cis_rule_1_1_5_1: true
-rhel9cis_rule_1_1_5_2: true
-rhel9cis_rule_1_1_5_3: true
-rhel9cis_rule_1_1_5_4: true
-rhel9cis_rule_1_1_6_1: true
-rhel9cis_rule_1_1_6_2: true
-rhel9cis_rule_1_1_6_3: true
-rhel9cis_rule_1_1_6_4: true
+rhel9cis_rule_1_1_3_1: false
+rhel9cis_rule_1_1_3_2: false
+rhel9cis_rule_1_1_3_3: false
+rhel9cis_rule_1_1_4_1: false
+rhel9cis_rule_1_1_4_2: false
+rhel9cis_rule_1_1_4_3: false
+rhel9cis_rule_1_1_4_4: false
+rhel9cis_rule_1_1_5_1: false
+rhel9cis_rule_1_1_5_2: false
+rhel9cis_rule_1_1_5_3: false
+rhel9cis_rule_1_1_5_4: false
+rhel9cis_rule_1_1_6_1: false
+rhel9cis_rule_1_1_6_2: false
+rhel9cis_rule_1_1_6_3: false
+rhel9cis_rule_1_1_6_4: false
 rhel9cis_rule_1_1_7_1: true
 rhel9cis_rule_1_1_7_2: true
 rhel9cis_rule_1_1_7_3: true
@@ -135,10 +135,10 @@ rhel9cis_rule_1_2_1: true
 rhel9cis_rule_1_2_2: true
 rhel9cis_rule_1_2_3: true
 rhel9cis_rule_1_2_4: true
-rhel9cis_rule_1_3_1: true
+rhel9cis_rule_1_3_1: false
 rhel9cis_rule_1_3_2: true
 rhel9cis_rule_1_3_3: true
-rhel9cis_rule_1_4_1: true
+rhel9cis_rule_1_4_1: false
 rhel9cis_rule_1_4_2: true
 rhel9cis_rule_1_5_1: true
 rhel9cis_rule_1_5_2: true
@@ -148,7 +148,7 @@ rhel9cis_rule_1_6_1_2: true
 rhel9cis_rule_1_6_1_3: true
 rhel9cis_rule_1_6_1_4: true
 rhel9cis_rule_1_6_1_5: true
-rhel9cis_rule_1_6_1_6: true
+rhel9cis_rule_1_6_1_6: false
 rhel9cis_rule_1_6_1_7: true
 rhel9cis_rule_1_6_1_8: true
 rhel9cis_rule_1_7_1: true
@@ -158,15 +158,15 @@ rhel9cis_rule_1_7_4: true
 rhel9cis_rule_1_7_5: true
 rhel9cis_rule_1_7_6: true
 rhel9cis_rule_1_8_1: true
-rhel9cis_rule_1_8_2: true
-rhel9cis_rule_1_8_3: true
-rhel9cis_rule_1_8_4: true
-rhel9cis_rule_1_8_5: true
-rhel9cis_rule_1_8_6: true
-rhel9cis_rule_1_8_7: true
-rhel9cis_rule_1_8_8: true
-rhel9cis_rule_1_8_9: true
-rhel9cis_rule_1_8_10: true
+rhel9cis_rule_1_8_2: false
+rhel9cis_rule_1_8_3: false
+rhel9cis_rule_1_8_4: false
+rhel9cis_rule_1_8_5: false
+rhel9cis_rule_1_8_6: false
+rhel9cis_rule_1_8_7: false
+rhel9cis_rule_1_8_8: false
+rhel9cis_rule_1_8_9: false
+rhel9cis_rule_1_8_10: false
 rhel9cis_rule_1_9: true
 rhel9cis_rule_1_10: true
 
@@ -180,7 +180,7 @@ rhel9cis_rule_2_2_4: true
 rhel9cis_rule_2_2_5: true
 rhel9cis_rule_2_2_6: true
 rhel9cis_rule_2_2_7: true
-rhel9cis_rule_2_2_8: true
+rhel9cis_rule_2_2_8: false
 rhel9cis_rule_2_2_9: true
 rhel9cis_rule_2_2_10: true
 rhel9cis_rule_2_2_11: true
@@ -192,7 +192,7 @@ rhel9cis_rule_2_2_16: true
 rhel9cis_rule_2_2_17: true
 rhel9cis_rule_2_2_18: true
 rhel9cis_rule_2_3_1: true
-rhel9cis_rule_2_3_2: true
+rhel9cis_rule_2_3_2: false
 rhel9cis_rule_2_3_3: true
 rhel9cis_rule_2_3_4: true
 rhel9cis_rule_2_4: true
@@ -212,15 +212,15 @@ rhel9cis_rule_3_3_6: true
 rhel9cis_rule_3_3_7: true
 rhel9cis_rule_3_3_8: true
 rhel9cis_rule_3_3_9: true
-rhel9cis_rule_3_4_1_1: true
-rhel9cis_rule_3_4_1_2: true
-rhel9cis_rule_3_4_2_1: true
-rhel9cis_rule_3_4_2_2: true
-rhel9cis_rule_3_4_2_3: true
-rhel9cis_rule_3_4_2_4: true
-rhel9cis_rule_3_4_2_5: true
-rhel9cis_rule_3_4_2_6: true
-rhel9cis_rule_3_4_2_7: true
+rhel9cis_rule_3_4_1_1: false
+rhel9cis_rule_3_4_1_2: false
+rhel9cis_rule_3_4_2_1: false
+rhel9cis_rule_3_4_2_2: false
+rhel9cis_rule_3_4_2_3: false
+rhel9cis_rule_3_4_2_4: false
+rhel9cis_rule_3_4_2_5: false
+rhel9cis_rule_3_4_2_6: false
+rhel9cis_rule_3_4_2_7: false
 
 # Section 4 rules
 rhel9cis_rule_4_1_1_1: true
@@ -257,7 +257,7 @@ rhel9cis_rule_4_1_4_3: true
 rhel9cis_rule_4_1_4_4: true
 rhel9cis_rule_4_1_4_5: true
 rhel9cis_rule_4_1_4_6: true
-rhel9cis_rule_4_1_4_7: true
+rhel9cis_rule_4_1_4_7: false
 rhel9cis_rule_4_1_4_8: true
 rhel9cis_rule_4_1_4_9: true
 rhel9cis_rule_4_1_4_10: true
@@ -265,7 +265,7 @@ rhel9cis_rule_4_2_1_1: true
 rhel9cis_rule_4_2_1_2: true
 rhel9cis_rule_4_2_1_3: true
 rhel9cis_rule_4_2_1_4: true
-rhel9cis_rule_4_2_1_5: true
+rhel9cis_rule_4_2_1_5: false
 rhel9cis_rule_4_2_1_6: true
 rhel9cis_rule_4_2_1_7: true
 rhel9cis_rule_4_2_2_1_1: true
@@ -304,7 +304,7 @@ rhel9cis_rule_5_2_10: true
 rhel9cis_rule_5_2_12: true
 rhel9cis_rule_5_2_11: true
 rhel9cis_rule_5_2_13: true
-rhel9cis_rule_5_2_14: true
+rhel9cis_rule_5_2_14: false
 rhel9cis_rule_5_2_15: true
 rhel9cis_rule_5_2_16: true
 rhel9cis_rule_5_2_17: true
@@ -314,7 +314,7 @@ rhel9cis_rule_5_2_20: true
 rhel9cis_rule_5_3_1: true
 rhel9cis_rule_5_3_2: true
 rhel9cis_rule_5_3_3: true
-rhel9cis_rule_5_3_4: true
+rhel9cis_rule_5_3_4: false
 rhel9cis_rule_5_3_5: true
 rhel9cis_rule_5_3_6: true
 rhel9cis_rule_5_3_7: true
@@ -334,7 +334,7 @@ rhel9cis_rule_5_6_2: true
 rhel9cis_rule_5_6_3: true
 rhel9cis_rule_5_6_4: true
 rhel9cis_rule_5_6_5: true
-rhel9cis_rule_5_6_6: true
+rhel9cis_rule_5_6_6: false
 
 # Section 6 rules
 rhel9cis_rule_6_1_1: true
@@ -363,7 +363,7 @@ rhel9cis_rule_6_2_8: true
 rhel9cis_rule_6_2_9: true
 rhel9cis_rule_6_2_10: true
 rhel9cis_rule_6_2_11: true
-rhel9cis_rule_6_2_12: true
+rhel9cis_rule_6_2_12: false
 rhel9cis_rule_6_2_13: true
 rhel9cis_rule_6_2_14: true
 rhel9cis_rule_6_2_15: true
@@ -444,10 +444,12 @@ rhel9cis_selinux_enforce: enforcing
 ### 2.1 Time Synchronization
 #### 2.1.2 Time Synchronization servers - used in template file chrony.conf.j2
 rhel9cis_time_synchronization_servers:
-    - 0.pool.ntp.org
-    - 1.pool.ntp.org
-    - 2.pool.ntp.org
-    - 3.pool.ntp.org
+    - 10.84.93.4
+    - 10.55.93.5
+    - 10.55.0.12
+    - 10.55.0.13
+    - 10.210.7.68
+    - 10.210.7.69
 rhel9cis_chrony_server_options: "minpoll 8"
 rhel9cis_chrony_server_rtcsync: false
 rhel9cis_chrony_server_makestep: "1.0 3"
