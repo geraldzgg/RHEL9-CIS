@@ -1,0 +1,6 @@
+aap.ats.local ansible_connection=local
+autohub.ats.local ansible_connection=ssh
+exec.ats.local ansible_connection=ssh
+[all:vars]
+ansible_user=ansiblesa
+ansible_password=
