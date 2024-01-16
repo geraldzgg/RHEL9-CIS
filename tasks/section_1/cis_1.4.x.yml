@@ -30,7 +30,7 @@
             modification_time: preserve
             access_time: preserve
         loop:
-            - { path: 'grub.cfg', mode: '0700' }
+            - { path: 'grub.cfg', mode: '0600' }
             - { path: 'grubenv', mode: '0600' }
             - { path: 'user.cfg', mode: '0600' }
 
