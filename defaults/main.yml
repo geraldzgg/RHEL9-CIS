@@ -520,7 +520,7 @@ rhel9cis_nft_tables_tablename: filter
 rhel9cis_nft_tables_autochaincreate: true
 
 # Warning Banner Content (issue, issue.net, motd)
-rhel9cis_warning_banner: Authorized uses only. All activity may be monitored and reported.
+rhel9cis_warning_banner: All activities performed on this system will be monitored.
 # End Banner
 
 ## Section4 vars
