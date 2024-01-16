@@ -596,10 +596,14 @@ rhel9_cis_sshd_config_file: /etc/ssh/sshd_config
 
 rhel9cis_sshd:
     clientalivecountmax: 0
-    clientaliveinterval: 900
+    clientaliveinterval: 300
     logingracetime: 60
     # WARNING: make sure you understand the precedence when working with these values!!
-    # allowusers:
+    allowusers:
+      - svc-pamrec1
+      - nobody1
+      - adm-rhelmgmt
+      - L1, L2 and SecOps engineers
     # allowgroups: systems dba
     # denyusers:
     # denygroups:
