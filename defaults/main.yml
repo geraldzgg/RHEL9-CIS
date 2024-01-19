@@ -137,7 +137,7 @@ rhel9cis_rule_1_2_3: true
 rhel9cis_rule_1_2_4: true
 rhel9cis_rule_1_3_1: false
 rhel9cis_rule_1_3_2: true
-rhel9cis_rule_1_3_3: true
+rhel9cis_rule_1_3_3: false
 rhel9cis_rule_1_4_1: false
 rhel9cis_rule_1_4_2: true
 rhel9cis_rule_1_5_1: true
@@ -261,21 +261,21 @@ rhel9cis_rule_4_1_4_7: false
 rhel9cis_rule_4_1_4_8: true
 rhel9cis_rule_4_1_4_9: true
 rhel9cis_rule_4_1_4_10: true
-rhel9cis_rule_4_2_1_1: true
-rhel9cis_rule_4_2_1_2: true
-rhel9cis_rule_4_2_1_3: true
-rhel9cis_rule_4_2_1_4: true
+rhel9cis_rule_4_2_1_1: false
+rhel9cis_rule_4_2_1_2: false
+rhel9cis_rule_4_2_1_3: false
+rhel9cis_rule_4_2_1_4: false
 rhel9cis_rule_4_2_1_5: false
-rhel9cis_rule_4_2_1_6: true
-rhel9cis_rule_4_2_1_7: true
+rhel9cis_rule_4_2_1_6: false
+rhel9cis_rule_4_2_1_7: false
 rhel9cis_rule_4_2_2_1_1: true
-rhel9cis_rule_4_2_2_1_2: true
+rhel9cis_rule_4_2_2_1_2: false
 rhel9cis_rule_4_2_2_1_3: true
 rhel9cis_rule_4_2_2_1_4: true
 rhel9cis_rule_4_2_2_2: true
 rhel9cis_rule_4_2_2_3: true
 rhel9cis_rule_4_2_2_4: true
-rhel9cis_rule_4_2_2_5: true
+rhel9cis_rule_4_2_2_5: false
 rhel9cis_rule_4_2_2_6: true
 rhel9cis_rule_4_2_2_7: true
 rhel9cis_rule_4_2_3: true
@@ -346,11 +346,11 @@ rhel9cis_rule_6_1_6: true
 rhel9cis_rule_6_1_7: true
 rhel9cis_rule_6_1_8: true
 rhel9cis_rule_6_1_9: true
-rhel9cis_rule_6_1_10: true
-rhel9cis_rule_6_1_11: true
+rhel9cis_rule_6_1_10: false
+rhel9cis_rule_6_1_11: false
 rhel9cis_rule_6_1_12: true
-rhel9cis_rule_6_1_13: true
-rhel9cis_rule_6_1_14: true
+rhel9cis_rule_6_1_13: false
+rhel9cis_rule_6_1_14: false
 rhel9cis_rule_6_1_15: true
 rhel9cis_rule_6_2_1: true
 rhel9cis_rule_6_2_2: true
@@ -600,10 +600,7 @@ rhel9cis_sshd:
     logingracetime: 60
     # WARNING: make sure you understand the precedence when working with these values!!
     allowusers:
-      - svc-pamrec1
       - nobody1
-      - adm-rhelmgmt
-      - L1, L2 and SecOps engineers
     # allowgroups: systems dba
     # denyusers:
     # denygroups:
@@ -622,7 +619,7 @@ rhel9cis_use_authconfig: true
 rhel9cis_authselect:
     custom_profile_name: custom-profile
     default_file_to_copy: "sssd"
-    options: with-mkhomedirectory
+    options: with-mkhomedir with-faillock
 
 # 5.3.1 Enable automation to create custom profile settings, using the settings above
 rhel9cis_authselect_custom_profile_create: true

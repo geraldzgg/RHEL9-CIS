@@ -79,7 +79,7 @@
         ansible.builtin.lineinfile:
             path: "{{ rhel9_cis_sshd_config_file }}"
             regexp: "^AllowUsers"
-            line: "AllowUsers {{ rhel9cis_sshd['allowusers'] }}"
+            line: "AllowUsers nobody1" #original is = line: "AllowUsers {{ rhel9cis_sshd['allowusers'] }}"
             validate: sshd -t -f %s
         notify: Restart sshd
         when: "rhel9cis_sshd['allowusers']|default('') | length > 0"
