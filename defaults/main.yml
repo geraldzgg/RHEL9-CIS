@@ -99,7 +99,7 @@ audit_cmd_timeout: 120000
 # You must enable an entire section in order for the variables below to take effect.
 # Section 1 rules
 rhel9cis_rule_1_1_1_1: true
-rhel9cis_rule_1_1_1_2: false
+rhel9cis_rule_1_1_1_2: true
 rhel9cis_rule_1_1_2_1: true
 rhel9cis_rule_1_1_2_2: true
 rhel9cis_rule_1_1_2_3: true
@@ -137,7 +137,7 @@ rhel9cis_rule_1_2_3: true
 rhel9cis_rule_1_2_4: true
 rhel9cis_rule_1_3_1: false
 rhel9cis_rule_1_3_2: true
-rhel9cis_rule_1_3_3: false
+rhel9cis_rule_1_3_3: true
 rhel9cis_rule_1_4_1: false
 rhel9cis_rule_1_4_2: true
 rhel9cis_rule_1_5_1: true
@@ -217,9 +217,9 @@ rhel9cis_rule_3_4_1_2: false
 rhel9cis_rule_3_4_2_1: false
 rhel9cis_rule_3_4_2_2: false
 rhel9cis_rule_3_4_2_3: false
-rhel9cis_rule_3_4_2_4: false
-rhel9cis_rule_3_4_2_5: false
-rhel9cis_rule_3_4_2_6: false
+rhel9cis_rule_3_4_2_4: false # ATS comment: "Not required, deviated as we are using Azure NSG for firewall management"
+rhel9cis_rule_3_4_2_5: false # ATS comment: "Not required, deviated as we are using Azure NSG for firewall management"
+rhel9cis_rule_3_4_2_6: false # ATS comment: "Not required, deviated as we are using Azure NSG for firewall management"
 rhel9cis_rule_3_4_2_7: false
 
 # Section 4 rules
@@ -264,9 +264,9 @@ rhel9cis_rule_4_1_4_10: true
 rhel9cis_rule_4_2_1_1: false
 rhel9cis_rule_4_2_1_2: false
 rhel9cis_rule_4_2_1_3: false
-rhel9cis_rule_4_2_1_4: false
-rhel9cis_rule_4_2_1_5: false
-rhel9cis_rule_4_2_1_6: false
+rhel9cis_rule_4_2_1_4: false # set to true when ATS get back to us
+rhel9cis_rule_4_2_1_5: false # ATS comment: "Not required, deviated as we are using LogRhythm agents to capture logs" 
+rhel9cis_rule_4_2_1_6: false # ATS comment: "Not required, deviated as we are using LogRhythm agents to capture logs"
 rhel9cis_rule_4_2_1_7: false
 rhel9cis_rule_4_2_2_1_1: true
 rhel9cis_rule_4_2_2_1_2: false
@@ -314,7 +314,7 @@ rhel9cis_rule_5_2_20: true
 rhel9cis_rule_5_3_1: true
 rhel9cis_rule_5_3_2: true
 rhel9cis_rule_5_3_3: true
-rhel9cis_rule_5_3_4: false
+rhel9cis_rule_5_3_4: true # previously set as false
 rhel9cis_rule_5_3_5: true
 rhel9cis_rule_5_3_6: true
 rhel9cis_rule_5_3_7: true
@@ -325,8 +325,8 @@ rhel9cis_rule_5_5_2: true
 rhel9cis_rule_5_5_3: true
 rhel9cis_rule_5_5_4: true
 rhel9cis_rule_5_5_5: true
-rhel9cis_rule_5_6_1_1: true
-rhel9cis_rule_5_6_1_2: true
+rhel9cis_rule_5_6_1_1: false # ATS comment: "Not required, deviated as we are using GCC PIM to manage the accounts & passwords"
+rhel9cis_rule_5_6_1_2: false # ATS comment: "Not required, deviated as we are using GCC PIM to manage the accounts & passwords"
 rhel9cis_rule_5_6_1_3: true
 rhel9cis_rule_5_6_1_4: true
 rhel9cis_rule_5_6_1_5: true
