@@ -4,7 +4,7 @@
   block:
       - name: "1.10 | PATCH | Ensure system-wide crypto policy is not legacy | set_fact"
         ansible.builtin.set_fact:
-            rhel9cis_full_crypto_policy: "{{ rhel9cis_crypto_policy }}{% if rhel9cis_crypto_policy_module | length > 0 %}:{{ rhel9cis_crypto_policy_module }}{% endif %}"
+            rhel9cis_full_crypto_policy: "{{ rhel9cis_crypto_policy }}"
 
       - name: "1.10 | PATCH | Ensure system-wide crypto policy is not legacy"
         ansible.builtin.shell: |

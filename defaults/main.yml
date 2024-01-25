@@ -168,7 +168,7 @@ rhel9cis_rule_1_8_8: false
 rhel9cis_rule_1_8_9: false
 rhel9cis_rule_1_8_10: false
 rhel9cis_rule_1_9: true
-rhel9cis_rule_1_10: false
+rhel9cis_rule_1_10: false # Only set to "Default"
 
 # Section 2 rules
 rhel9cis_rule_2_1_1: true
