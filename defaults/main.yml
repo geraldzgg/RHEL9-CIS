@@ -394,7 +394,7 @@ rhel9cis_allow_autofs: false
 rhel9cis_rhnsd_required: false
 
 # 1.2.4 repo_gpgcheck
-rhel9cis_rhel_default_repo: true
+rhel9cis_rhel_default_repo: false # repo_gpgcheck is not carried out for RedHat hosts as the default repos do not have this function
 rhel9cis_rule_enable_repogpg: true
 
 # 1.4.1 Bootloader password
