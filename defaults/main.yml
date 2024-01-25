@@ -314,7 +314,7 @@ rhel9cis_rule_5_2_20: true
 rhel9cis_rule_5_3_1: true
 rhel9cis_rule_5_3_2: true
 rhel9cis_rule_5_3_3: true
-rhel9cis_rule_5_3_4: true # previously set as false
+rhel9cis_rule_5_3_4: false # default is true
 rhel9cis_rule_5_3_5: true
 rhel9cis_rule_5_3_6: true
 rhel9cis_rule_5_3_7: true
@@ -495,9 +495,9 @@ rhel9cis_ftp_client: false
 
 ## Section3 vars
 ## Sysctl
-rhel9cis_sysctl_update: false
-rhel9cis_flush_ipv4_route: false
-rhel9cis_flush_ipv6_route: false
+rhel9cis_sysctl_update: true # Default is false
+rhel9cis_flush_ipv4_route: true # Default is false
+rhel9cis_flush_ipv6_route: true # Default is false
 
 ### Firewall Service - either firewalld, iptables, or nftables
 #### Some control allow for services to be removed or masked
